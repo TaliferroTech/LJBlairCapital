@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "ljblair",
+    "public": "dist/ljblair",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
